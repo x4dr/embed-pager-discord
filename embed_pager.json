@@ -1,0 +1,7 @@
+{
+"pages":{
+	"31,fe0f,20e3":	{"title":"Welcome!", "description":"Use one of the Emoji below to navigate!", "colour": 15105570},
+	"32,fe0f,20e3": {"title":"Page2", "description":"This is an example for page 2!", "colour":15105570}
+},
+"start":"31,fe0f,20e3"
+}
