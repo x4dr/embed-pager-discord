@@ -1,6 +1,5 @@
 import asyncio
 import json
-import os
 import discord
 from discord.ext import commands
 
@@ -64,8 +63,8 @@ def code_to_emoji(code):
 
 
 if __name__ == "__main__":
-    with open(os.path.expanduser("embed_pager.discord"), "r") as tokenfile:
-        TOKEN = tokenfile.read().strip() # token file is literally just the token inside a file
+    with open("embed_pager.discord", "r") as tokenfile:
+        TOKEN = tokenfile.read().strip()  # token file is literally just the token inside a file
     with open("embed_pager.json", "r") as configfile:
         config = json.loads(configfile.read().strip())
     bot.help_pages = config["pages"]
